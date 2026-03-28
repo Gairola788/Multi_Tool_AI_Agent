@@ -25,7 +25,7 @@ def user_description(user_input):
 
 while True:
     
-    user = input("Ask any query regarding calculations ,weather or web search")
+    user = input("Ask any query regarding calculations ,weather or web search\n")
     
     if(user.lower() == 'exit'):
         break
